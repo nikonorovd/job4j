@@ -1,3 +1,3 @@
-# Репозиторий Дмитрия Никонорова
-sjdbvkjdsnbkdfs
-jsdbgkjsdbgvks
+# http://job4j.ru/
+Задача max - стать java junior к 01.06.2019
+Задача min - стать автотестером к 01.06.2019
