@@ -1,9 +1,10 @@
-package ru.job4j.calculate;
+﻿package ru.job4j.calculate;
 /** Класс для вычисления арифметических операций + - / * .
 * @author Nikonorov.
 * @since 08.03.2019.
 * @version 1.
 */ 
+
 public class Calculate {
 	/** метод echo.
 	* @param value value.
