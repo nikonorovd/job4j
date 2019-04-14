@@ -12,6 +12,7 @@ public class Calculate {
     }
 
     public String echo(String name) {
+
         return String.format("%s %s %s", name, name, name);
     }
 }
