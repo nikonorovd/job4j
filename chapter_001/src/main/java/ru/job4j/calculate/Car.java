@@ -4,6 +4,7 @@ public class Car {
     private double volume;
 
     public void drive (int kilometr){
+
         this.volume = this.volume - kilometr;
     }
 
@@ -14,6 +15,7 @@ public class Car {
         return this.volume > 0;
     }
     public void gasInfo(){
+
         System.out.println("I can drive" + this.volume + "kilometers");
     }
 }

@@ -10,6 +10,8 @@ public class CalculatorTest {
     @Test
     public void whenAddOnePlusOneThenTwo() {
         Calculator calc = new Calculator();
-        assertThat(calc.add(1d, 1d), is(2d));
+        assertThat(calc.add(1d, 1d),
+                is(2d));
     }
+
 }
