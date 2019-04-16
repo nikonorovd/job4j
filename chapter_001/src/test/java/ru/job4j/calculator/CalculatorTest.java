@@ -9,7 +9,7 @@ public class CalculatorTest  {
     public void whenAddOnePlusOneThenTwo()  {
         Calculator calc = new Calculator();
         double result = calc.add(1D, 1D);
-        double expected = 2;
+        double expected = 2D;
         assertThat(result, is(expected));
     }
     @Test
@@ -32,7 +32,7 @@ public class CalculatorTest  {
     public  void whenmultipleOnePlusOneThehTwo(){
         Calculator ccalc = new Calculator();
         double result = ccalc.multiple(1D, 1D);
-        double expected = 1;
+        double expected = 1D;
         assertThat(result, is(expected));
 
     }
