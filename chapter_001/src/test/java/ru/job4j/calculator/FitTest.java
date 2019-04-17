@@ -1,7 +1,6 @@
 package ru.job4j.calculator;
 
 import org.junit.Test;
-
 import static org.hamcrest.number.IsCloseTo.closeTo;
 import static org.junit.Assert.assertThat;
 
@@ -13,7 +12,6 @@ public class FitTest {
         assertThat(weight, closeTo(92.0,0.1));
 
     }
-
     @Test
     public void womanWeight() {
         Fit fit = new Fit();
