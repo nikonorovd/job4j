@@ -8,36 +8,7 @@ public class Max {
      */
     public int max(int left, int right) {
         int result = left;
-        return result < 15 ? left : right;
+        return result < right ? left : right;
     }
 
-    /**
-     * @param left
-     * @param right
-     * @return
-     */
-    public int whenFirstMax(int left, int right) {
-        int result = left;
-        return result < 15 ? left : right;
-    }
-
-    /**
-     * @param left
-     * @param right
-     * @return
-     */
-    public int whenSecondMax(int left, int right) {
-        int result = left;
-        return result < 1 ? left : right;
-    }
-
-    /**
-     * @param left
-     * @param right
-     * @return
-     */
-    public int whenFirstAndSecondAreEqual(int left, int right) {
-        int result = left;
-        return result < 15 ? left : right;
-    }
 }

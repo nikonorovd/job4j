@@ -12,19 +12,14 @@ public class  MaxTest {
         assertThat(result, is(5));
     }
     @Test
-    public void whenFirstMax(){//первое максимальное
+    public void whenFirstMax(){
         Max maxa = new Max();
-        int result = maxa.max(2, 1);
-        assertThat(result, is(2));
+        int result = maxa.max(6, 4);
+        assertThat(result, is(6));
     }
+
     @Test
-    public void whenSecondMax(){  //второе максимальное
-        Max max = new Max();
-        int result = max.max(1, 2);
-        assertThat(result, is(1));
-    }
-    @Test
-    public void whenFirstAndSecondAreEqual(){ // оба числа одинаковые
+    public void whenFirstAndSecondAreEqual(){
         Max max = new Max();
         int result =max.max(2,2);
         assertThat(result, is(2));
