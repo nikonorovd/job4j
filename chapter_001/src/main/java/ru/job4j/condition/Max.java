@@ -8,7 +8,7 @@ public class Max {
      */
     public int max(int left, int right) {
         int result = left;
-        return result < right ? left : right;
+        return result > right ? right : left;
     }
 
 }
