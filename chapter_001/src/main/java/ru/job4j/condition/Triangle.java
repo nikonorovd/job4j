@@ -34,7 +34,7 @@ public class Triangle {
         double c = new Point().distance(x1, y1, x3, y3);
         double p = period(a, b, c);
         if (this.exist(a, b, c)) {
-            Math.sqrt(p * (p - a * b) * (p - a * c) * (p - b * c));
+            rsl = Math.sqrt(p * (p - a * b) * (p - a * c) * (p - b * c));
         }
         return rsl;
     }
@@ -49,7 +49,7 @@ public class Triangle {
      * @param bc Длина от точки b до точки c.
      * @return
      */
-    private boolean exist(double ab, double ac, double bc) {
+    private boolean exist(double ab, double ac, double bc) { ;
         return false;
     }
 }
